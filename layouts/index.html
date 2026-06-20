@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-glow hero-glow--1"></div>
+  <div class="hero-glow hero-glow--2"></div>
+  <div class="container hero-inner">
+    <div class="hero-eyebrow"><span>this&#8209;old.dad</span></div>
+    <h1 class="hero-title">
+      Scott's happy little corner
+      <em>of the Internet.</em>
+    </h1>
+    <p class="hero-sub">{{ .Site.Params.description }}</p>
+  </div>
+</section>
+
+<!-- ── Featured image ────────────────────────────────────── -->
+<div class="container">
+  <div class="feature">
+    <div class="image-frame">
+      <img src="{{ "IMG_4323.jpeg" | relURL }}" alt="Featured photo">
+    </div>
+  </div>
+</div>
+
+<!-- ── Family ────────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-label">Explore</div>
+    <h2 class="section-title">The rest of the family</h2>
+    <div class="family-grid">
+      <a class="family-card" href="https://cookbook.this-old.dad/">
+        <span class="family-card__icon">&#127859;</span>
+        <span class="family-card__title">Scott's Cookbook</span>
+        <span class="family-card__desc">My favorite recipes, all in one place.</span>
+        <span class="family-card__cta">Open Cookbook &rarr;</span>
+      </a>
+      <a class="family-card" href="https://dogs.this-old.dad/">
+        <span class="family-card__icon">&#128062;</span>
+        <span class="family-card__title">My Dogs</span>
+        <span class="family-card__desc">Photo galleries of every good boy &amp; girl.</span>
+        <span class="family-card__cta">View Galleries &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

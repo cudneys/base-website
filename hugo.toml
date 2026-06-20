@@ -1,0 +1,8 @@
+baseURL = 'https://cudneys.net/'
+languageCode = 'en-us'
+title = "cudneys.net"
+disableKinds = ['taxonomy', 'term', 'rss']
+
+[params]
+  description = "A little corner of the internet for our family — recipes worth making and the dogs we love."
+  author = "Scott"

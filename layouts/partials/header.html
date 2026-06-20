@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="container">
+    <a class="site-logo" href="{{ "/" | relURL }}">
+      {{ partial "logo-mark.html" . }}
+      <span class="logo-text" data-sld>{{ .Site.Title }}</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+      <a href="https://cookbook.this-old.dad/">Cookbook</a>
+      <a href="https://dogs.this-old.dad/">Dogs</a>
+    </nav>
+  </div>
+</header>
