@@ -178,10 +178,10 @@ a { color: var(--accent); text-decoration: none; }
 
 /* ── Featured image ── */
 .feature {
-  margin: clamp(-5rem, -8vw, -7rem) auto 0;
+  margin: clamp(2rem, 4vw, 3rem) auto;
   position: relative;
-  z-index: 2;
-  max-width: 860px;
+  z-index: 1;
+  max-width: 460px;
 }
 .image-frame {
   border-radius: var(--radius-lg);
@@ -267,6 +267,3 @@ a { color: var(--accent); text-decoration: none; }
 .footer-links a:hover { color: #fff; }
 .footer-bottom { font-size: .78rem; color: rgba(255,255,255,.3); text-align: center; }
 
-@media (max-width: 640px) {
-  .feature { margin-top: clamp(-4rem, -10vw, -3rem); }
-}
