@@ -6,8 +6,10 @@
     </a>
     <nav class="site-nav">
       <a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
-      <a href="https://cookbook.this-old.dad/">Cookbook</a>
-      <a href="https://dogs.this-old.dad/">Dogs</a>
+      <span class="nav-divider" aria-hidden="true"></span>
+      <a href="https://cookbook.this-old.dad/" class="nav-external">Cookbook</a>
+      <a href="https://dogs.this-old.dad/" class="nav-external">Dogs</a>
+      <a href="https://scotts.house/" class="nav-external">House</a>
     </nav>
   </div>
 </header>
