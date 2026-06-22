@@ -1,8 +1,8 @@
-baseURL = 'https://cudneys.net/'
+baseURL = 'https://this-old.dad/'
 languageCode = 'en-us'
-title = "cudneys.net"
+title = "More fun than one guy should have"
 disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
-  description = "A little corner of the internet for our family — recipes worth making and the dogs we love."
+  description = "Dogs, Food, Home Automation"
   author = "Scott"
